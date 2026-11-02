@@ -1,6 +1,0 @@
-name = input("What is your name? ")
-club = input("what is you club")
-print("SCHOOL BATACH")
-print("NAME=",name)
-print("CLUB=",club)
-print("BATACH NAME=",name[0:3],club[0:3])
