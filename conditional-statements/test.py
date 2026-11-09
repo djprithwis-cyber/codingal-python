@@ -1,0 +1,15 @@
+mins = int(input("Enter a number: "))
+playtime = int(input("Enter mins of playtime: "))
+print("===================")
+print("homework details ")
+print("===================")
+if mins >= 60:
+    print("long term homework!")
+    print("since this is long dumb homework, you should do it now and complete it and you have a few minutes of playtime Ready so do it now")
+else:
+    print("short term homework")
+    print("playtime mins ", playtime)
+    print("=========")
+    print("summery")
+    print("=========")
+    print("since a short term homework, you can do it at any time of the day, but you should finish it and you have a few minutes of playtime")
