@@ -17,8 +17,9 @@ elif day in ("friday"):
 elif day in ("tuesday","wednesday","thursday"):
     print("it is the middle of the week (normal school day)")
 else: 
-    print("error 404(not found day)")
+    print("error 404(not found day(try finding a diffrent day?))")
     
+
 
 
 

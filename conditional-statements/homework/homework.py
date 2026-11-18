@@ -1,4 +1,4 @@
-age = (input("Put your age: "))
+age = int(input("Put your age: "))
 import time
 print("loding")
 time.sleep(2)
@@ -9,7 +9,10 @@ print("chart")
 print("===============")
 print("notice")
 print("if it is a infant then it is a 4 digit code but a child  or teennager 5 digit if aduilt it is a 6 to 7  didit code ")
+print("")
 print("you can pass on to payment")
+print("")
+
 if age <= 5:
     print("you are inf(infan) pass")
     print("code:1734")
@@ -30,5 +33,9 @@ else:
 if pay == "yes":
     print("Payment done erly")
 else:
-    paynow = input("Would you like to pay now? (yes/no): ")
-print("done! Wait here so we can check if you actually paid or not")
+    print("====================")
+    print("you have sayd no in the pay or you have put something else")
+    print("====================")
+
+    
+    
