@@ -1,0 +1,16 @@
+print("enter marks obtaiend in five subject")
+import time 
+time.sleep(2)
+markone = int(input("numbers only"))
+marktwo = int(input("numbers only"))
+markthree = int(input("numbers only"))
+markfour = int(input("numbers only"))
+markfive  = int(input("numbers only"))
+print("loding")
+time.sleep(2)
+total = markone + marktwo + markthree + markfour + markfive
+avg =int(total / 5)
+print("loding")
+time.sleep(3)
+print("total",total)
+print("avg",avg)
