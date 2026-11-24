@@ -1,0 +1,47 @@
+print("stdu app access manager project")
+print("============")
+print("")
+d = 9
+j = 6
+z = 5
+nameage = input("put your first letter of the name (d(dhruv) j(jack) z(zash)): ")
+
+allowed_apps = ("roblox", "codingal", "hwb")
+no_allowed = ("gmail", "onlineclasscall")
+
+if nameage == "d":
+    print("")
+    print("name:dhruv")
+    print("age",d)
+elif nameage == "j":
+    print("")
+    print("name:jack")
+    print("age",j)
+elif nameage == "z":
+    print("")
+    print("name:zash")
+    print("age",z)
+else:
+    print("Invalid name letter")
+
+print("roblox codingal HWB onlineClasscall")
+
+resqitedapps = (input("what apps?"))
+if resqitedapps in allowed_apps:
+    print("loding")
+    import time 
+    time.sleep(2)
+    print("geting data from your name")
+    time.sleep(2)
+    print("checking requested App")
+    time.sleep(1)
+    print("done, allowed")
+else:
+        print("loding")
+        import time 
+        time.sleep(2)
+        print("geting data from your name")
+        time.sleep(2)
+        print("checking requested App")
+        time.sleep(1)
+        print("noalap84398(not allowed App noalap)")
